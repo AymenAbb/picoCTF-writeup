@@ -29,3 +29,8 @@ Once you edit those, run it again and it'll give flag.
 Unzip the file and search through all text files for a flag. I did this by going to Windows Explorer and typing in the search bar "Content: picoCTF"
 
 picoCTF{gr3p_15_m4g1c_ef8790dc}
+
+## CanYouSee:
+Put the image through an image analysis tool like Aperi Solve, and you'll get a AttributionURL, which looks very similar to a Base64 message. Unencrypting that gives the flag.
+
+picoCTF{ME74D47A_HIDD3N_d8c381fd}
